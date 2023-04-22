@@ -109,3 +109,35 @@ footer {
   text-align: center;
   height: 145px;
 }
+@media only screen and (max-width: 480px) {
+  /* Styles for mobile devices */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .my_name {
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  #about {
+    padding: 20px;
+  }
+  
+  #contact {
+    margin: 0;
+    padding: 20px;
+  }
+  
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 10px;
+  }
+}
